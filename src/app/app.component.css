@@ -4,13 +4,15 @@
 
 .header {
     margin: 4em 0;
+    text-align:center;
 }
 
 .header .headline {
     font-family: 'Bad Script', cursive;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1em;
     padding-bottom: .75em;
+    color: #616161;
 }
 
 .header .subtext {
@@ -19,4 +21,27 @@
     color: #848484;
     font-weight: 800;
     letter-spacing: 3px;
+}
+    
+.header-images img {
+    width:100%;
+}
+
+.header-images {
+    margin: 0 30px;
+}
+
+.nav {
+    width:100%;
+    text-align:center;
+    margin-top:60px;
+}
+
+.nav span {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: #848484;
+    font-weight: 800;
+    letter-spacing: 3px;
+    padding:15px;
 }

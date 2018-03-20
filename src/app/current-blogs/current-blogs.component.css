@@ -1,0 +1,79 @@
+.blogs-view {
+    margin:120px 120px;
+}
+
+
+.blogs-view .post {
+    padding:15px;
+}
+
+
+.blogs-view .overlay-info {
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.79);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 32px;
+    margin-top: 25px;
+    text-align: center;
+    color: #656565;
+    padding-right: 63px;
+}
+
+.overlay-info .title {
+    font-size: 27px;
+    font-family: 'Bad Script', cursive;
+}
+
+.overlay-info .content {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.blogs-view .date {
+    font-weight: 900;
+    text-align:right;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blogs-view .date .month {
+    font-size:50px;
+    line-height: 42px;
+    letter-spacing:3px;
+    color: #8e8c8a;
+    line-height: 42px;
+}
+
+.blogs-view img {
+    min-height:500px;
+}
+.blogs-view .image-container {
+    height:500px;
+    overflow:hidden;
+    border: 5px solid #8d8c89;
+}
+.blogs-view .date .day {
+    font-size: 90px;
+    line-height: 73px;
+    margin-top: 5px;
+    color: #bfd0bb;
+}
+
+.blogs-view .date p {
+    color: #8e8c8a;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 21px;
+    margin-top: 6px;
+    letter-spacing: 4px;
+}
+
+.blogs-view .row {
+    margin: 85px -15px;
+}
+
+.blogs-view .col-md-10 {
+    border: 1px solid #8e8c8a;
+    height:700px;
+}

@@ -1,0 +1,27 @@
+<div class="blogs-view">
+
+    <div *ngFor="let blog of blogs" class="row">
+        <div class="col-md-2 date">
+            <div class="month">{{blog.month}}</div>
+            <div class="day">{{blog.day}}</div>
+            <p>{{'{'}} {{blog.year}} {{'}'}}</p>
+        </div>
+        <div class="col-md-9">
+            <div class="image-container">
+                <img width=100% src="assets/images/{{blog.cover}}">
+            </div>
+            <div class="overlay-info">
+                <div class="title">
+                    {{blog.title}}
+                </div>
+                <div class="content">
+                    {{blog.content}}...
+                </div>
+                <div class="title">
+                    see full post ->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
