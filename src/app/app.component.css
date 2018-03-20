@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.header {
+    margin: 4em 0;
+}
+
+.header .headline {
+    font-family: 'Bad Script', cursive;
+    font-size: 40px;
+    line-height: 1em;
+    padding-bottom: .75em;
+}
+
+.header .subtext {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #848484;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
