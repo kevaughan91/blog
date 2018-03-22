@@ -1,5 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
 .blogs-view {
-    margin:120px 120px;
+    margin:120px 120px 120px 20px;
 }
 
 
@@ -7,37 +10,59 @@
     padding:15px;
 }
 
-
-.blogs-view .overlay-info {
-    z-index: 2;
-    background-color: rgba(255, 255, 255, 0.79);
-    position: absolute;
-    top: 0;
-    width: 100%;
-    padding: 32px;
-    margin-top: 25px;
-    text-align: center;
-    color: #656565;
-    padding-right: 63px;
+.post-content {
+    height: 100%;
+    border-bottom: 1px solid #b1b0ae;
 }
-
-.overlay-info .title {
-    font-size: 27px;
+.timeline {
+    font-size: 12px;
+    color: #6b6b6a;
+    line-height: 1em;
+    padding-bottom: 25px;
+    font-weight:300;
+    font-family: 'Lato', sans-serif;
+}
+.see-more {
+    color: #9db796;
+    font-size: 17px;
+    text-align: right;
+    margin: 20px;
     font-family: 'Bad Script', cursive;
 }
 
-.overlay-info .content {
-    font-size: 17px;
-    font-family: 'Roboto', sans-serif; 
+.pointer {
+    cursor:pointer;
 }
 
-.blogs-view .date {
+.dash{
+    padding: 0 4px;
+}
+.post-content .title {
+    font-size: 26px;
+    font-family: 'Bad Script', cursive;
+    color: #6b6b6a;
+    margin-bottom:15px;
+    line-height:33px;
+}
+
+.post-content .title:hover {
+    color: #9db796;
+}
+
+.post-content .content {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.75em;
+}
+
+.blogs-view .post-date {
     font-weight: 900;
     text-align:right;
     font-family: 'Roboto', sans-serif;
 }
 
-.blogs-view .date .month {
+.blogs-view .post-date .month {
     font-size:50px;
     line-height: 42px;
     letter-spacing:3px;
@@ -45,22 +70,29 @@
     line-height: 42px;
 }
 
-.blogs-view img {
-    min-height:500px;
+.blogs-view .post-left{
+    border: solid #b1b0ae;
+    border-width: 1px 0 1px 1px;
+    padding:0;
+}
+.blogs-view .post-right{
+    border: solid #b1b0ae;
+    border-width: 1px 1px 1px 0;
+    height:352px;
+    padding:45px;
 }
 .blogs-view .image-container {
-    height:500px;
+    height:350px;
     overflow:hidden;
-    border: 5px solid #8d8c89;
 }
-.blogs-view .date .day {
+.blogs-view .post-date .day {
     font-size: 90px;
     line-height: 73px;
     margin-top: 5px;
     color: #bfd0bb;
 }
 
-.blogs-view .date p {
+.blogs-view .post-date p {
     color: #8e8c8a;
     font-weight: 400;
     font-size: 1.5em;
