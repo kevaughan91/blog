@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+.blog-detail-container {
+    margin:120px 15%;
+    text-align:center;
+    border:1px solid #848484;
+    padding: 80px;
+}
+
+.timeline {
+
+    font-size: 12px;
+    color: #6b6b6a;
+    line-height: 1em;
+    padding-bottom: 25px;
+    font-weight:300;
+    font-family: 'Lato', sans-serif;
+}
+.see-more {
+    color: #9db796;
+    font-size: 17px;
+    text-align: right;
+    margin: 20px;
+    font-family: 'Bad Script', cursive;
+}

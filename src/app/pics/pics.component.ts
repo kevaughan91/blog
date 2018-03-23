@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'current-blogs',
-  templateUrl: './current-blogs.component.html',
-  styleUrls: ['./current-blogs.component.css']
+  selector: 'pics',
+  templateUrl: './pics.component.html',
+  styleUrls: ['./pics.component.css']
 })
-export class CurrentBlogsComponent {
+export class PicsComponent {
   title = 'app';
 
   blogs = [{
@@ -37,4 +37,8 @@ export class CurrentBlogsComponent {
       content: "This batse since we moved in in August 2016. But after finding this old wooden shelf, I decided to finally put something together and finish this"
    
     }];
+
+    viewBlogs(id){
+      
+    }
 }
