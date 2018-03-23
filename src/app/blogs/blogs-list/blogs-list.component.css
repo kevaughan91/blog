@@ -23,11 +23,15 @@
     font-family: 'Lato', sans-serif;
 }
 .see-more {
-    color: #9db796;
     font-size: 17px;
     text-align: right;
     margin: 20px;
     font-family: 'Bad Script', cursive;
+}
+
+.see-more a {
+    color: #9db796;
+    text-decoration:none;
 }
 
 .pointer {
@@ -68,6 +72,7 @@
     letter-spacing:3px;
     color: #8e8c8a;
     line-height: 42px;
+    text-transform:uppercase;
 }
 
 .blogs-view .post-left{

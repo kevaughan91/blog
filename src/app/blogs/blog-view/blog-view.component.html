@@ -1,8 +1,19 @@
-<div class="blog-detail-container">
 
-
-
-   {{currentBlog.title}}
-
-   {{currentBlog.content}}
+<div class="blog-detail">
+        <div class="back">
+                <a routerLink="/blog"> <- All Posts</a>
+    </div>
+    <div class="blog-detail-container">
+            
+        <div class="detail-date">
+            {{currentBlog.month}} {{currentBlog.day}} {{currentBlog.year}} &nbsp;-&nbsp; <span class="location">{{currentBlog.location}}</span>
+           </div>
+    
+       <div class="detail-title">
+        {{currentBlog.title}}
+       </div> 
+       <div class="detail-content" innerHTML="{{currentBlog.content}}"></div>
+       <div class="divider"></div>
+    </div>
+    
 </div>
